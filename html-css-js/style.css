@@ -1,0 +1,17 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Defines 3 equal-width columns */
+    grid-gap: 10px; /* Defines the gap between grid cells */
+  }
+  
+  .grid-item {
+    background-color: rgb(65, 61, 198);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .grid-item img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
