@@ -17,9 +17,9 @@
     });
 
     removeButton.addEventListener('click', function() {
-        var gridItems = document.querySelectorAll('.grid-item');
+        let gridItems = document.querySelectorAll('.grid-item');
         if (gridItems.length > 0) {
-          var lastGridItem = gridItems[gridItems.length - 1];
+          let lastGridItem = gridItems[gridItems.length - 1];
           lastGridItem.remove();
           count--;
           counter.innerHTML = count;
